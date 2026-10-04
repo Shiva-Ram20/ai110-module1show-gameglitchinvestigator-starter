@@ -25,21 +25,19 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- The game's purpose is to guess the secret in a range with X number of attempts based on the difficulty
+- Hint message were swapped, Attempts were inaccurately shown and Secret wasn't refresh when swapping modes leading to out of range secrets
+- I applied all the fixes to the bugs I found
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
-
-**Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
+1. User enters a guess of 15
+2. Game returns "Too Low"
+3. User enters a guess of 65, and the game shows "Too High"
+4. Score updates correctly after each guess
+5. Game ends after the correct guess
 
 ## 🧪 Test Results
 
